@@ -32,8 +32,6 @@ public class Problem13 {
 			ArrayList<Integer> xSolve = (ArrayList<Integer>) mySolve.clone();
 			xSolve.add(i);
 			int xt = t - 1;
-			System.out.println(xm + " " + xt + " " + i);
-			System.out.println(xSolve);
 			if(xt == 0){
 				if(verifySolve(xSolve)){
 					solutions.add(xSolve);
